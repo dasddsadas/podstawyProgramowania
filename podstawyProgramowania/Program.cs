@@ -1,20 +1,11 @@
-﻿//task 1
+﻿//task 6
 
-int num1 = 4;
-int num2 = 2;
-int div =num1 / num2;
+//mnozenie liczby przez wszystko od 1 do 10
 
-Console.WriteLine(div);
+int num1 = int.Parse(Console.ReadLine());
+int i;
 
-//task 2
-
-int x = 3;
-int y = 5;
-int temp = y;
-y = x;
-x = temp;
-Console.WriteLine(x);
-Console.WriteLine(y);
-
-//task 3
-
+for (i = 1; i <= 10; i++)
+{
+    Console.WriteLine(num1 + " x " + i + " = " + (num1 * i));
+}
