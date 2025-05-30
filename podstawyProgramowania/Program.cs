@@ -1,20 +1,9 @@
-﻿//task 1
+﻿//task 5
 
-int num1 = 4;
-int num2 = 2;
-int div =num1 / num2;
+//wszystkie liczby nieparzyste od 1 do 99
 
-Console.WriteLine(div);
-
-//task 2
-
-int x = 3;
-int y = 5;
-int temp = y;
-y = x;
-x = temp;
-Console.WriteLine(x);
-Console.WriteLine(y);
-
-//task 3
-
+int i;
+for (i = 1; i < 100; i += 2)
+{
+    Console.WriteLine(i);
+}
