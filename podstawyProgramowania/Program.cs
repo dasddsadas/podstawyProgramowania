@@ -1,20 +1,17 @@
-﻿//task 1
+﻿//task 9
 
-int num1 = 4;
-int num2 = 2;
-int div =num1 / num2;
+//sprawdza czy podane liczby sa w podanym zakresie
 
-Console.WriteLine(div);
+int num1 = int.Parse(Console.ReadLine());
+int num2 = int.Parse(Console.ReadLine());
 
-//task 2
-
-int x = 3;
-int y = 5;
-int temp = y;
-y = x;
-x = temp;
-Console.WriteLine(x);
-Console.WriteLine(y);
-
-//task 3
-
+bool isInRange1 = num1 < 100 && num2 > 200;
+bool isInRange2 = num2 < 100 && num1 > 200;
+if ((isInRange1) || (isInRange2))
+{
+    Console.WriteLine("liczby są w podanym zakresie");
+}
+else
+{
+    Console.WriteLine("liczby nie są w podanym zakresie");
+}
