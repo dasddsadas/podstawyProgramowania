@@ -1,20 +1,11 @@
-﻿//task 1
+﻿//task 3
 
-int num1 = 4;
-int num2 = 2;
-int div =num1 / num2;
+//mnozenie trzech liczb
 
-Console.WriteLine(div);
+int num1 = 2;
+int num2 = 3;
+int num3 = 4;
 
-//task 2
+int res = num1 * num2 * num3;
 
-int x = 3;
-int y = 5;
-int temp = y;
-y = x;
-x = temp;
-Console.WriteLine(x);
-Console.WriteLine(y);
-
-//task 3
-
+Console.WriteLine(res);
