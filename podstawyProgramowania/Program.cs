@@ -1,20 +1,8 @@
-﻿//task 1
+﻿//srednia 4 liczb
 
-int num1 = 4;
-int num2 = 2;
-int div =num1 / num2;
-
-Console.WriteLine(div);
-
-//task 2
-
-int x = 3;
-int y = 5;
-int temp = y;
-y = x;
-x = temp;
-Console.WriteLine(x);
-Console.WriteLine(y);
-
-//task 3
-
+int num1 = int.Parse(Console.ReadLine());
+int num2 = int.Parse(Console.ReadLine());
+int num3 = int.Parse(Console.ReadLine());
+int num4 = int.Parse(Console.ReadLine());
+double avg = (num1 + num2 + num3 + num4) / 4.0;
+Console.WriteLine(avg);
