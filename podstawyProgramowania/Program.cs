@@ -1,20 +1,14 @@
-﻿//task 1
+﻿//task 7
 
-int num1 = 4;
-int num2 = 2;
-int div =num1 / num2;
+//srednia z 4 liczb
 
-Console.WriteLine(div);
+int num1 = 2;
+int num2 = 3;
+int num3 = 5;
+int num4 = 4;
 
-//task 2
+double sum = num1 + num2 + num3 + num4;
+Console.WriteLine(sum);
 
-int x = 3;
-int y = 5;
-int temp = y;
-y = x;
-x = temp;
-Console.WriteLine(x);
-Console.WriteLine(y);
-
-//task 3
-
+double avg = sum / 4;
+Console.WriteLine(avg);
