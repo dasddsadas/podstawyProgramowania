@@ -1,20 +1,7 @@
-﻿//task 1
+﻿//task 8
 
-int num1 = 4;
-int num2 = 2;
-int div =num1 / num2;
+//wiadomosc odpowiadajaca na wpisany wiek
 
-Console.WriteLine(div);
+int age = int.Parse(Console.ReadLine());
 
-//task 2
-
-int x = 3;
-int y = 5;
-int temp = y;
-y = x;
-x = temp;
-Console.WriteLine(x);
-Console.WriteLine(y);
-
-//task 3
-
+Console.WriteLine("wygladasz na wiecej niz " + age + " lat");
