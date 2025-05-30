@@ -1,4 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿//task 8
 
-Console.WriteLine("dsadasasd");
+//wiadomosc odpowiadajaca na wpisany wiek
 
+int age = int.Parse(Console.ReadLine());
+
+Console.WriteLine("wygladasz na wiecej niz " + age + " lat");
