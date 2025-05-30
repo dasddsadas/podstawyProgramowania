@@ -1,4 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿//task 2
 
-Console.WriteLine("dsadasasd");
+//zamiana miejscami dwoch liczb
 
+int x = 3;
+int y = 5;
+
+int temp = y;
+y = x;
+x = temp;
+
+Console.WriteLine(x);
+Console.WriteLine(y);
