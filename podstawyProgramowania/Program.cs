@@ -1,4 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿//task 4
 
-Console.WriteLine("dsadasasd");
+//wszystko do lowercase
 
+string input = Console.ReadLine();
+string lowercase = input.ToLower();
+Console.WriteLine(lowercase);
