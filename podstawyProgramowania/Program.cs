@@ -7,8 +7,10 @@ int num2 = 3;
 int num3 = 5;
 int num4 = 4;
 
-double sum = num1 + num2 + num3 + num4;
-Console.WriteLine(sum);
+double sum1 = num1 + num2;
+double sum2 = num3 + num4;
+double sumf = sum1 + sum2;
+Console.WriteLine(sumf);
 
-double avg = sum / 4;
+double avg = sumf / 4;
 Console.WriteLine(avg);
