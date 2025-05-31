@@ -6,6 +6,6 @@ int num1 = 2;
 int num2 = 3;
 int num3 = 4;
 
-int res = num1 * num2 * num3;
+int result = num1 * num2 * num3;
 
-Console.WriteLine(res);
+Console.WriteLine(result);
