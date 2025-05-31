@@ -3,9 +3,9 @@
 //mnozenie liczby przez wszystko od 1 do 10
 
 int num1 = int.Parse(Console.ReadLine());
-int i;
+int num2;
 
-for (i = 1; i <= 10; i++)
+for (num2 = 1; num2 <= 10; num2++)
 {
-    Console.WriteLine(num1 + " x " + i + " = " + (num1 * i));
+    Console.WriteLine(num1 + " x " + num2 + " = " + (num1 * num2));
 }
