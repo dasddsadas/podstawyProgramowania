@@ -1,4 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿//task 3
 
-Console.WriteLine("dsadasasd");
+//mnozenie trzech liczb
 
+int num1 = 2;
+int num2 = 3;
+int num3 = 4;
+
+int result = num1 * num2 * num3;
+
+Console.WriteLine(result);
